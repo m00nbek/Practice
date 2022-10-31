@@ -15,6 +15,7 @@
 		3BC89364290FA98D00940A84 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC89363290FA98D00940A84 /* HomeView.swift */; };
 		3BC89366290FA99900940A84 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC89365290FA99900940A84 /* AppFlow.swift */; };
 		3BC89368290FA99E00940A84 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC89367290FA99E00940A84 /* RootController.swift */; };
+		3BC8936E290FABDE00940A84 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8936D290FABDE00940A84 /* Concurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3BC89363290FA98D00940A84 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3BC89365290FA99900940A84 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
 		3BC89367290FA99E00940A84 /* RootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
+		3BC8936D290FABDE00940A84 /* Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				3BC8935E290FA95100940A84 /* App */,
 				3BC8935F290FA95300940A84 /* UI */,
+				3BC8936A290FAB2D00940A84 /* Modules */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -111,6 +114,22 @@
 				3BC89363290FA98D00940A84 /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		3BC89369290FAB1C00940A84 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8936D290FABDE00940A84 /* Concurrency.swift */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
+		3BC8936A290FAB2D00940A84 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3BC89369290FAB1C00940A84 /* Concurrency */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +208,7 @@
 				3BC89366290FA99900940A84 /* AppFlow.swift in Sources */,
 				3BC89362290FA98300940A84 /* HomeController.swift in Sources */,
 				3BC89368290FA99E00940A84 /* RootController.swift in Sources */,
+				3BC8936E290FABDE00940A84 /* Concurrency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

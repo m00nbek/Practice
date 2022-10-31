@@ -15,4 +15,10 @@ class HomeController: UIViewController {
         view = _view
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // Concurrency
+        Concurrency.asyncVSsync()
+    }
 }
