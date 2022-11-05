@@ -20,5 +20,9 @@ class HomeController: UIViewController {
         
         // Concurrency
         Concurrency.asyncVSsync()
+        
+        // Algorithms
+        let array = [ 0, 1, 1, 3, 3, 3, 3, 6, 8, 10, 11, 11 ]
+        print(Algorithms.countOccurrences(of: 3, in: array))
     }
 }
