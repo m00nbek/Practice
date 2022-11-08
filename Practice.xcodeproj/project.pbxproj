@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3B52D10A291630FE0009C539 /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52D109291630FE0009C539 /* Algorithms.swift */; };
 		3B59FF1D291A31500093482B /* Singletons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59FF1C291A31500093482B /* Singletons.swift */; };
+		3B59FF20291A59850093482B /* DependencyDiagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59FF1F291A59850093482B /* DependencyDiagram.swift */; };
+		3B59FF22291A5ABB0093482B /* Diagram.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B59FF21291A5ABB0093482B /* Diagram.jpeg */; };
 		3BC89349290FA87100940A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC89348290FA87100940A84 /* AppDelegate.swift */; };
 		3BC8934B290FA87100940A84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8934A290FA87100940A84 /* SceneDelegate.swift */; };
 		3BC89352290FA87300940A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC89351290FA87300940A84 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3B52D109291630FE0009C539 /* Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
 		3B59FF1C291A31500093482B /* Singletons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singletons.swift; sourceTree = "<group>"; };
+		3B59FF1F291A59850093482B /* DependencyDiagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyDiagram.swift; sourceTree = "<group>"; };
+		3B59FF21291A5ABB0093482B /* Diagram.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Diagram.jpeg; sourceTree = "<group>"; };
 		3BC89345290FA87100940A84 /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC89348290FA87100940A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC8934A290FA87100940A84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +64,7 @@
 		3B59FF18291A30DF0093482B /* ED */ = {
 			isa = PBXGroup;
 			children = (
-				3B59FF1B291A312D0093482B /* Lecture02 */,
+				3B59FF23291A5E430093482B /* Day 1 */,
 			);
 			path = ED;
 			sourceTree = "<group>";
@@ -71,6 +75,24 @@
 				3B59FF1C291A31500093482B /* Singletons.swift */,
 			);
 			path = Lecture02;
+			sourceTree = "<group>";
+		};
+		3B59FF1E291A49420093482B /* Lecture3 */ = {
+			isa = PBXGroup;
+			children = (
+				3B59FF1F291A59850093482B /* DependencyDiagram.swift */,
+				3B59FF21291A5ABB0093482B /* Diagram.jpeg */,
+			);
+			path = Lecture3;
+			sourceTree = "<group>";
+		};
+		3B59FF23291A5E430093482B /* Day 1 */ = {
+			isa = PBXGroup;
+			children = (
+				3B59FF1B291A312D0093482B /* Lecture02 */,
+				3B59FF1E291A49420093482B /* Lecture3 */,
+			);
+			path = "Day 1";
 			sourceTree = "<group>";
 		};
 		3BC8933C290FA87100940A84 = {
@@ -231,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B59FF22291A5ABB0093482B /* Diagram.jpeg in Resources */,
 				3BC89355290FA87300940A84 /* LaunchScreen.storyboard in Resources */,
 				3BC89352290FA87300940A84 /* Assets.xcassets in Resources */,
 			);
@@ -246,6 +269,7 @@
 				3BC89349290FA87100940A84 /* AppDelegate.swift in Sources */,
 				3BC89364290FA98D00940A84 /* HomeView.swift in Sources */,
 				3BC89370290FF11100940A84 /* Attributes.swift in Sources */,
+				3B59FF20291A59850093482B /* DependencyDiagram.swift in Sources */,
 				3B59FF1D291A31500093482B /* Singletons.swift in Sources */,
 				3BC8934B290FA87100940A84 /* SceneDelegate.swift in Sources */,
 				3BC89366290FA99900940A84 /* AppFlow.swift in Sources */,
