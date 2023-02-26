@@ -66,3 +66,5 @@ extension Toy: Decodable {
 }
 
 let sameToy = try decoder.decode(Toy.self, from: data)
+
+print(Date())
